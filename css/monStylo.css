@@ -71,7 +71,6 @@ i{
 	display:grid;
 	grid-template-columns:repeat(3,1fr);
 	grid-gap:20px;
-	
 }
 .apoyo{
 	width:70%;
@@ -102,7 +101,14 @@ figcaption{
 	background:#ddee22;
 
 }
-
+.ilusionescumplidas{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap:30px;
+}
+.ilusionescumplidas h1{
+	grid-column: 1/4;
+}
 /*Footers*/
 
 /*Footer Desktop*/
