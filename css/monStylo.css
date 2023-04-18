@@ -43,6 +43,17 @@ i{
 	color:black;
 	text-decoration:none;
 }
+/*.extended{
+	position: sticky;
+	top:0px;
+	display:grid;
+	grid-template-columns: repeat(1,1fr);
+}
+.extended ul{
+	display:grid;
+	grid-template-columns: repeat(8,1fr);
+	list-style-type: none;
+}*/
 .content{
 	width:100%;
 	text-align: center;
