@@ -6,6 +6,12 @@
 body{
 	background-color: #F0F0F0;
 }
+i{
+	color:#da8bb1;
+}
+li.active{
+	border-bottom:2px solid rgba(218, 139, 177,.6);
+}
 /*Escritorio*/
 @media only screen and (min-width:1367px){
 .nav-brand{
@@ -25,6 +31,9 @@ body{
 	padding:0px 20px;
 	background-color:#def;
 }
+.smarth{
+	display:none;
+}
 .extended{
 	height:auto;
 	background-color: #fff;
@@ -39,9 +48,7 @@ body{
 	font-size:18px;
 
 }
-li.active{
-	border-bottom:2px solid rgba(218, 139, 177,.6);
-}
+
 nav ul{
 	list-style:none;
 	display:flex;
@@ -53,9 +60,7 @@ ul li{
 nav li:hover, .extended li:hover{
 	border-bottom:2px solid #da8bb1;
 }
-i{
-	color:#da8bb1;
-}
+
 .nav-bar a, .extended a, a{
 	color:black;
 	text-decoration:none;
@@ -113,6 +118,23 @@ figcaption{
 	font-size:20px;
 	margin-bottom:30px;
 	font-weight: bold;
+}
+.partof{
+	width: 70%;
+	height:auto;
+	margin: auto;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	gap: 40px;
+	text-align: justify;
+}
+.partof button{
+	background-color: #def;
+	border-radius:15px;
+	height:50px;
+	padding:10px;
+	cursor:pointer;
 }
 .programas{
 	display:grid;
@@ -294,6 +316,9 @@ li{
 	height:150px;
 	background-color:#fff;
 }
+.smarth{
+	display:none;
+}
 .extended{
 	height:auto;
 	background-color: #fff;
@@ -308,9 +333,7 @@ li{
 	font-size:18px;
 
 }
-li.active{
-	border-bottom:2px solid rgba(218, 139, 177,.6);
-}
+
 nav ul{
 	list-style:none;
 	display:flex;
@@ -324,9 +347,7 @@ ul li{
 nav li:hover, .extended li:hover{
 	border-bottom:2px solid #da8bb1;
 }
-i{
-	color:#da8bb1;
-}
+
 .nav-bar a, .extended a, a{
 	color:black;
 	text-decoration:none;
@@ -557,5 +578,175 @@ li{
 	border-radius:10px;
 	padding:30px;
 	background-color:#1F93EE99;
+}
+}
+/*smarth phones*/
+@media only screen and (max-width:850px){
+
+.nav-bar{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:auto;
+	background-color:#fff;
+	
+}
+.desk{
+	display:none;
+}
+.nav-brand{
+	width:80%;
+	margin:auto;
+}
+.nav-brand img{
+	width:100%;
+	height:100%;
+}
+.extended{
+	height:auto;
+	background-color: #fff;
+	padding-bottom:2px;
+	position:sticky;
+	top:0px;	
+}
+.extended ul{
+	display:flex;
+	justify-content: center;
+	font-size:16px;
+
+}
+
+nav ul{
+	list-style-type:none;
+	display:flex;
+	justify-content: center;
+}
+ul li{
+	padding:10px 0px;
+}
+
+.nav-bar a, .extended a, a{
+	color:black;
+	text-decoration:none;
+}
+.content{
+	width:100%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-row-gap:50px;
+	margin-bottom: 30px;
+	margin-top:30px;
+}
+.wlcm{
+	width:90%;
+	height:auto;
+	margin: auto;
+}
+.titleContent{
+	width:70%;
+	margin:auto;
+	padding:30px;
+	background:rgb(17, 95, 169);
+	text-align:center;
+	font-size:18px;
+	color:#fff;
+}
+.titleContent p{
+	text-align: justify;
+	margin-top:30px;
+}
+hr{
+	border:2px solid #fff;
+	width:80%;
+	margin:auto;
+}
+h1{
+	font-size:1.2em;
+}
+h2{
+	font-size:1em;
+}
+h3{
+	font-size:.8em;
+}
+.objetivos{
+	width:100%;
+	display:grid;
+	grid-template-columns:repeat(1,1fr);
+}
+.objetivos h1{
+	font-size:18px;
+}
+.objetivo{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 80%;
+}
+.galeria{
+	width: 90%;
+	margin:auto;
+}
+.apoyo{
+	width:80%;
+	margin:auto;
+}
+figcaption{
+	font-size:20px;
+	margin-bottom:30px;
+	font-weight: bold;
+}
+.partof{
+	width: 80%;
+	height:auto;
+	margin: auto;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	gap: 40px;
+	text-align: justify;
+}
+.partof button{
+	background-color: #def;
+	border-radius:15px;
+	height:50px;
+	padding:10px;
+	cursor:pointer;
+}
+.programas{
+	display:grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 70px;
+}
+.diamujer{
+	display:grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 35px;
+}
+.diamujer h1, .diamujer h2, .diamujer h3{
+	grid-column:1/4;
+}
+.evidencia{
+	width:70%;
+	height:300px;
+	margin:auto;
+	background:#ddee22;
+
+}
+.ilusionescumplidas{
+	display:grid;
+	grid-template-columns:repeat(1, 1fr);
+	grid-row-gap:30px;
+}
+.ilusionescumplidas h1{
+	grid-column: 1/4;
+}
+.footerMobile{
+	display:flex;
+	flex-wrap: wrap;
+	background-color:#da8bb1;
 }
 }
